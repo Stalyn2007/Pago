@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo de Métodos de Pago</title>
+    <!-- Vinculamos el archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Selecciona tu Método de Pago</h1>
+
+    <div class="payment-container">
+        <div class="payment-method">
+            <a href="https://www.ejemplo-pago-efectivo.com" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.J2pJRNip7WWuNRfRW-RjNgHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Efectivo" class="payment-icon">
+            </a>
+            <p class="payment-label">Efectivo</p>
+        </div>
+
+        <div class="payment-method">
+            <a href="https://www.ejemplo-pago-tarjeta.com" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.FHwWlH-oYac03LKURJXRSwHaBm?w=349&h=75&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Tarjeta de Crédito/Débito" class="payment-icon">
+            </a>
+            <p class="payment-label">Tarjeta</p>
+        </div>
+
+        <div class="payment-method">
+            <a href="https://www.paypal.com" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.08pbRxr6BpSE6zsBpVVN_wHaFj?w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="PayPal" class="payment-icon">
+            </a>
+            <p class="payment-label">PayPal</p>
+        </div>
+
+        <div class="payment-method">
+            <a href="https://www.ejemplo-transferencia.com" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.BL8jI2vglqUyuCs7z_LmlAHaEK?w=267&h=180&c=7&r=0&o=5&pid=1.7" alt="Transferencia Bancaria" class="payment-icon">
+            </a>
+            <p class="payment-label">Transferencia</p>
+        </div>
+        <div class="payment-method">
+            <a href="https://www.ejemplo-transferencia.com" target="_blank">
+                <img src="data:image/png;base64,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" alt="Transferencia Bancaria" class="payment-icon">
+            </a>
+            <p class="payment-label">DE UNA</p>
+        </div>
+    </div>
+
+</body>
+</html>
+

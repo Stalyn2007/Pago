@@ -1,0 +1,57 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de los métodos de pago */
+.payment-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* Estilo para cada método de pago */
+.payment-method {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto hover para el icono */
+.payment-method:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo de los iconos */
+.payment-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las etiquetas de los métodos de pago */
+.payment-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+}
